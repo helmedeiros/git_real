@@ -20,6 +20,7 @@ index e69de29..d5b6a43 100644
 ```
 
 
+## Git Stash Commands:
 ### Git Stash - SAVE
 Will take those files haven't been completed yet, and it's going to save them away on a temporary area.
 
@@ -71,3 +72,12 @@ Sometimes we're not in need of the stashed code when back to changes, so after y
 $ git stash drop stash@{1}
 Dropped stash@{1} (68278123f439be4a1853d44f1ab2a004a05e8f30)
 ```
+
+## Git Stash Shortcuts:
+There are some intelligent commands when we're working with stashing.
+
+We can just run:
+* `git stash`, and it is the same thing as running `git stash save`
+* `git stash apply` is the same of running `git stash apply` at the top of the stack, which is going to be stash 0.
+* `git stash drop` is going to automatically drop the first stash on the top of the stash stack.
+* `git stash pop` is the same of running a `git stash apply` + `git stash drop`
