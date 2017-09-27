@@ -81,3 +81,7 @@ We can just run:
 * `git stash apply` is the same of running `git stash apply` at the top of the stack, which is going to be stash 0.
 * `git stash drop` is going to automatically drop the first stash on the top of the stash stack.
 * `git stash pop` is the same of running a `git stash apply` + `git stash drop`
+
+
+## Git Stash - Conflicts
+When you're doing a stash you can run into `conflicts`. When you try to to take two different files and merge them together, merging them together
