@@ -1,8 +1,19 @@
 # git_real
-codeschool git real notes
 
-#### LEVEL 1 - INTERACTIVE REBASE
-An overview of REBASE why, where and when to use it. Let's see some of them: [here](https://github.com/helmedeiros/git_real/tree/master/level_1)
+Notes and worked examples from Code School's **Git Real** course.
 
-#### LEVEL 2 - STASHING
-An overview of STASHING why, where and when to use it. Let's see some of them: [here](https://github.com/helmedeiros/git_real/tree/master/level_2)
+A learning record of intermediate Git, organized by level, with runnable
+`console.sh` walkthroughs for each topic.
+
+## Levels
+
+| Level     | Topic                                                              |
+| --------- | ----------------------------------------------------------------- |
+| `level_1` | Interactive rebase — reordering, rewording, splitting and squashing commits. |
+| `level_2` | Stashing — why, where and when to use it.                          |
+
+Each topic folder has its own `console.sh` showing the commands step by step.
+
+## License
+
+[MIT](LICENSE)
